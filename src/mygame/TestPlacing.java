@@ -15,12 +15,12 @@ import com.jme3.scene.Spatial;
  * test
  * @author normenhansen
  */
-public class Main extends SimpleApplication {
+public class TestPlacing extends SimpleApplication {
     
     private int size=21;
     
     public static void main(String[] args) {
-        Main app = new Main();
+        TestPlacing app = new TestPlacing();
         app.start();
     }
 
@@ -33,14 +33,11 @@ public class Main extends SimpleApplication {
             array[y]= new GameObject();
             array[y].setGameSpatial(assetManager.loadModel("Models/Student/StudentBody.j3o"));
         }
-        
-        createGround(10, 1);
-        //achChild(geom);
+
         Spatial room = assetManager.loadModel("Models/Scene/Scene.j3o");
         room.scale(0.2f);
         rootNode.attachChild(room);    /** A white ambient light source. */ 
         placeStudents(array);
-
         AmbientLight ambient = new AmbientLight();
         ambient.setColor(ColorRGBA.White);
         rootNode.addLight(ambient); 
@@ -50,12 +47,17 @@ public class Main extends SimpleApplication {
     public void simpleUpdate(float tpf) {
         //TODO: add update code
     }
-
+    
     @Override
     public void simpleRender(RenderManager rm) {
         //TODO: add render code
     }
     
+    /**
+     * places up to 36 students in the scenery
+     * @createdby Tobias Koenig
+     * @param gobjs array of GameObjects
+     */
     public void placeStudents(GameObject[] gobjs){
         //initial vectors for each row
         Vector3f initVec1 = new Vector3f(-8.68f,2.3f,0.38f);
@@ -90,8 +92,10 @@ public class Main extends SimpleApplication {
             }
         }
     }
+    
     /**
-     * @created by Tobias Koenig
+     * fills a row up with students depending on the iniial vector and the current offset.
+     * @createdby Tobias Koenig
      * @param spat Spatial object to set the LocalTranslation
      * @param initVec initial vector to determine position
      * @param sideOffset current offset in row
@@ -101,22 +105,5 @@ public class Main extends SimpleApplication {
         spat.move(sideOffset, 0, 0);
         spat.scale(0.2f);
         rootNode.attachChild(spat);
-    }
-
-    
-    private void createGround(int count,int blocksize){
-        Node ground = new Node("ground");
-        for(int x=0;x<count*blocksize*2;x+=blocksize*2){
-            for(int z=0;z<count*blocksize*2;z+=blocksize*2){
-                Box b = new Box(Vector3f.ZERO, blocksize, blocksize, blocksize);
-                Geometry geom = new Geometry("Box"+x+z, b);
-                Material mat = new Material(assetManager, "Common/MatDefs/Misc/Unshaded.j3md");
-                mat.setColor("Color", ColorRGBA.randomColor());
-                geom.setMaterial(mat);
-                geom.setLocalTranslation( new Vector3f(x+(x*0.1f), -10, z+(z*0.1f)));
-                ground.attachChild(geom);
-            }
-        }
-        rootNode.attachChild(ground);
     }
 }
