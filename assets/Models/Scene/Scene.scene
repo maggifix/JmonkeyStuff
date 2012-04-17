@@ -1,0 +1,489 @@
+<scene formatVersion="1.0" upAxis="y" unitsPerMeter="39.3701" minOgreVersion="1.8" ogreMaxVersion="2.4.1" author="OgreMax Scene Exporter (www.ogremax.com)" application="3DS Max">
+    <environment>
+        <colourAmbient r="0.333333" g="0.333333" b="0.333333" />
+        <colourBackground r="0" g="0" b="0" />
+        <clipping near="0" far="100000" />
+    </environment>
+    <nodes>
+        <node name="Raum">
+            <position x="-0.593803" y="10.5883" z="2.59538" />
+            <scale x="1.46109" y="1" z="1" />
+            <rotation qx="0.707107" qy="0" qz="0" qw="0.707107" />
+            <entity name="Raum" castShadows="true" receiveShadows="true" meshFile="Raum.mesh">
+                <subentities>
+                    <subentity index="0" materialName="09-Default" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Tisch01">
+            <position x="-1.76463" y="5.64522" z="13.3268" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Tisch01" castShadows="true" receiveShadows="true" meshFile="Tisch01.mesh">
+                <subentities>
+                    <subentity index="0" materialName="08-Default" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Tisch02">
+            <position x="-1.76463" y="10.92" z="-1.31213" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Tisch02" castShadows="true" receiveShadows="true" meshFile="Tisch02.mesh">
+                <subentities>
+                    <subentity index="0" materialName="08-Default" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Tisch003">
+            <position x="-1.76463" y="16.1414" z="-16.0747" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Tisch003" castShadows="true" receiveShadows="true" meshFile="Tisch003.mesh">
+                <subentities>
+                    <subentity index="0" materialName="08-Default" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Tisch004">
+            <position x="-1.76463" y="21.631" z="-30.9453" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Tisch004" castShadows="true" receiveShadows="true" meshFile="Tisch004.mesh">
+                <subentities>
+                    <subentity index="0" materialName="08-Default" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Treppe">
+            <position x="5.55883" y="-1.05832e-006" z="-24.2115" />
+            <scale x="1.47376" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Treppe" castShadows="true" receiveShadows="true" meshFile="Treppe.mesh">
+                <subentities>
+                    <subentity index="0" materialName="14-Default" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Reihe001">
+            <position x="5.89444" y="12.9757" z="2.86873" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <node name="Sitz044">
+                <position x="49.1515" y="-2.13943" z="-3.95202" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <entity name="Sitz044" castShadows="true" receiveShadows="true" meshFile="Sitz044.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="13-Default" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="Sitz043">
+                <position x="37.176" y="-2.13943" z="-3.95202" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <entity name="Sitz043" castShadows="true" receiveShadows="true" meshFile="Sitz043.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="13-Default" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="Sitz042">
+                <position x="24.9854" y="-2.13943" z="-3.95202" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <entity name="Sitz042" castShadows="true" receiveShadows="true" meshFile="Sitz042.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="13-Default" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="Sitz041">
+                <position x="12.823" y="-2.13943" z="-3.95202" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <entity name="Sitz041" castShadows="true" receiveShadows="true" meshFile="Sitz041.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="13-Default" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="Sitz040">
+                <position x="0.147642" y="-2.13943" z="-3.95202" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <entity name="Sitz040" castShadows="true" receiveShadows="true" meshFile="Sitz040.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="13-Default" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="Sitz039">
+                <position x="-12.1488" y="-2.13943" z="-3.95202" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <entity name="Sitz039" castShadows="true" receiveShadows="true" meshFile="Sitz039.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="13-Default" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="Sitz038">
+                <position x="-24.3427" y="-2.13943" z="-3.95202" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <entity name="Sitz038" castShadows="true" receiveShadows="true" meshFile="Sitz038.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="13-Default" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="Sitz037">
+                <position x="-36.5093" y="-2.13943" z="-3.95202" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <entity name="Sitz037" castShadows="true" receiveShadows="true" meshFile="Sitz037.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="13-Default" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="Sitz001">
+                <position x="-49.1072" y="-2.13943" z="-3.95202" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <entity name="Sitz001" castShadows="true" receiveShadows="true" meshFile="Sitz001.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="13-Default" />
+                    </subentities>
+                </entity>
+            </node>
+        </node>
+        <node name="Reihe002">
+            <position x="12.1949" y="18.0332" z="-11.8863" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <node name="Sitz053">
+                <position x="49.1515" y="-2.13943" z="-3.95202" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <entity name="Sitz053" castShadows="true" receiveShadows="true" meshFile="Sitz053.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="13-Default" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="Sitz052">
+                <position x="37.176" y="-2.13943" z="-3.95202" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <entity name="Sitz052" castShadows="true" receiveShadows="true" meshFile="Sitz052.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="13-Default" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="Sitz051">
+                <position x="24.9854" y="-2.13943" z="-3.95202" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <entity name="Sitz051" castShadows="true" receiveShadows="true" meshFile="Sitz051.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="13-Default" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="Sitz050">
+                <position x="12.823" y="-2.13943" z="-3.95202" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <entity name="Sitz050" castShadows="true" receiveShadows="true" meshFile="Sitz050.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="13-Default" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="Sitz049">
+                <position x="0.147642" y="-2.13943" z="-3.95202" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <entity name="Sitz049" castShadows="true" receiveShadows="true" meshFile="Sitz049.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="13-Default" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="Sitz048">
+                <position x="-12.1488" y="-2.13943" z="-3.95202" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <entity name="Sitz048" castShadows="true" receiveShadows="true" meshFile="Sitz048.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="13-Default" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="Sitz047">
+                <position x="-24.3427" y="-2.13943" z="-3.95202" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <entity name="Sitz047" castShadows="true" receiveShadows="true" meshFile="Sitz047.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="13-Default" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="Sitz046">
+                <position x="-36.5093" y="-2.13943" z="-3.95202" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <entity name="Sitz046" castShadows="true" receiveShadows="true" meshFile="Sitz046.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="13-Default" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="Sitz045">
+                <position x="-49.1072" y="-2.13943" z="-3.95202" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <entity name="Sitz045" castShadows="true" receiveShadows="true" meshFile="Sitz045.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="13-Default" />
+                    </subentities>
+                </entity>
+            </node>
+        </node>
+        <node name="Reihe003">
+            <position x="5.80421" y="23.7735" z="-25.8363" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <node name="Sitz062">
+                <position x="49.1515" y="-2.13943" z="-3.95202" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <entity name="Sitz062" castShadows="true" receiveShadows="true" meshFile="Sitz062.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="13-Default" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="Sitz061">
+                <position x="37.176" y="-2.13943" z="-3.95202" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <entity name="Sitz061" castShadows="true" receiveShadows="true" meshFile="Sitz061.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="13-Default" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="Sitz060">
+                <position x="24.9854" y="-2.13943" z="-3.95202" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <entity name="Sitz060" castShadows="true" receiveShadows="true" meshFile="Sitz060.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="13-Default" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="Sitz059">
+                <position x="12.823" y="-2.13943" z="-3.95202" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <entity name="Sitz059" castShadows="true" receiveShadows="true" meshFile="Sitz059.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="13-Default" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="Sitz058">
+                <position x="0.147642" y="-2.13943" z="-3.95202" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <entity name="Sitz058" castShadows="true" receiveShadows="true" meshFile="Sitz058.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="13-Default" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="Sitz057">
+                <position x="-12.1488" y="-2.13943" z="-3.95202" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <entity name="Sitz057" castShadows="true" receiveShadows="true" meshFile="Sitz057.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="13-Default" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="Sitz056">
+                <position x="-24.3427" y="-2.13943" z="-3.95202" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <entity name="Sitz056" castShadows="true" receiveShadows="true" meshFile="Sitz056.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="13-Default" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="Sitz055">
+                <position x="-36.5093" y="-2.13943" z="-3.95202" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <entity name="Sitz055" castShadows="true" receiveShadows="true" meshFile="Sitz055.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="13-Default" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="Sitz054">
+                <position x="-49.1072" y="-2.13943" z="-3.95202" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <entity name="Sitz054" castShadows="true" receiveShadows="true" meshFile="Sitz054.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="13-Default" />
+                    </subentities>
+                </entity>
+            </node>
+        </node>
+        <node name="Reihe004">
+            <position x="11.8528" y="29.4553" z="-41.1558" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <node name="Sitz071">
+                <position x="49.1515" y="-2.13943" z="-3.95203" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <entity name="Sitz071" castShadows="true" receiveShadows="true" meshFile="Sitz071.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="13-Default" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="Sitz070">
+                <position x="37.176" y="-2.13943" z="-3.95203" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <entity name="Sitz070" castShadows="true" receiveShadows="true" meshFile="Sitz070.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="13-Default" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="Sitz069">
+                <position x="24.9854" y="-2.13943" z="-3.95203" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <entity name="Sitz069" castShadows="true" receiveShadows="true" meshFile="Sitz069.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="13-Default" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="Sitz068">
+                <position x="12.823" y="-2.13943" z="-3.95203" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <entity name="Sitz068" castShadows="true" receiveShadows="true" meshFile="Sitz068.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="13-Default" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="Sitz067">
+                <position x="0.147642" y="-2.13943" z="-3.95203" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <entity name="Sitz067" castShadows="true" receiveShadows="true" meshFile="Sitz067.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="13-Default" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="Sitz066">
+                <position x="-12.1488" y="-2.13943" z="-3.95203" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <entity name="Sitz066" castShadows="true" receiveShadows="true" meshFile="Sitz066.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="13-Default" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="Sitz065">
+                <position x="-24.3427" y="-2.13943" z="-3.95203" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <entity name="Sitz065" castShadows="true" receiveShadows="true" meshFile="Sitz065.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="13-Default" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="Sitz064">
+                <position x="-36.5093" y="-2.13943" z="-3.95203" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <entity name="Sitz064" castShadows="true" receiveShadows="true" meshFile="Sitz064.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="13-Default" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="Sitz063">
+                <position x="-49.1072" y="-2.13943" z="-3.95203" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <entity name="Sitz063" castShadows="true" receiveShadows="true" meshFile="Sitz063.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="13-Default" />
+                    </subentities>
+                </entity>
+            </node>
+        </node>
+        <node name="Male06">
+            <position x="-43.4642" y="6.16417" z="1.76049" />
+            <scale x="0.0152541" y="0.0152541" z="0.0152541" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Male06" castShadows="true" receiveShadows="true" meshFile="Male06.mesh">
+                <subentities>
+                    <subentity index="0" materialName="Human" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Male007">
+            <position x="-36.8489" y="11.3566" z="-12.88" />
+            <scale x="0.0152541" y="0.0152541" z="0.0152541" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Male007" castShadows="true" receiveShadows="true" meshFile="Male007.mesh">
+                <subentities>
+                    <subentity index="0" materialName="20-Default" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Male008">
+            <position x="-36.8489" y="22.5208" z="-41.0017" />
+            <scale x="0.0152541" y="0.0152541" z="0.0152541" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Male008" castShadows="true" receiveShadows="true" meshFile="Male008.mesh">
+                <subentities>
+                    <subentity index="0" materialName="20-Default" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Male009">
+            <position x="-43.4642" y="17.3284" z="-26.3612" />
+            <scale x="0.0152541" y="0.0152541" z="0.0152541" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Male009" castShadows="true" receiveShadows="true" meshFile="Male009.mesh">
+                <subentities>
+                    <subentity index="0" materialName="Human" />
+                </subentities>
+            </entity>
+        </node>
+    </nodes>
+</scene>

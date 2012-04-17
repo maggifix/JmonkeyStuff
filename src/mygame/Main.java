@@ -1,6 +1,7 @@
 package mygame;
 
 import com.jme3.app.SimpleApplication;
+import com.jme3.light.AmbientLight;
 import com.jme3.material.Material;
 import com.jme3.math.ColorRGBA;
 import com.jme3.math.Vector3f;
@@ -8,6 +9,7 @@ import com.jme3.renderer.RenderManager;
 import com.jme3.scene.Geometry;
 import com.jme3.scene.shape.Box;
 import com.jme3.scene.Node;
+import com.jme3.scene.Spatial;
 
 /**
  * test
@@ -22,8 +24,30 @@ public class Main extends SimpleApplication {
 
     @Override
     public void simpleInitApp() {
+        cam.setLocation(new Vector3f(-7,4,5));
+        
+        Vector3f initVec = new Vector3f(-8.68f,2.3f,0.38f);
+        
         createGround(10, 1);
         //achChild(geom);
+        Spatial room = assetManager.loadModel("Models/Scene/Scene.j3o");
+        room.scale(0.2f);
+        rootNode.attachChild(room);    /** A white ambient light source. */ 
+        Spatial student = assetManager.loadModel("Models/Student/StudentBody.j3o");
+        student.setLocalTranslation(initVec);
+        student.scale(0.2f);
+        Spatial student2 = student.clone();
+        //student.move(-8.68f,2.3f,0.38f);
+        student2.move(2.5f,0,0);
+        Spatial student3 = student2.clone();
+        student3.move(2.5f,0,0);
+        rootNode.attachChild(student3); 
+        rootNode.attachChild(student2); 
+        rootNode.attachChild(student); 
+            /** A white ambient light source. */ 
+    AmbientLight ambient = new AmbientLight();
+    ambient.setColor(ColorRGBA.White);
+    rootNode.addLight(ambient); 
     }
 
     @Override

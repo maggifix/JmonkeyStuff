@@ -1,0 +1,135 @@
+material 14-Default
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture TreppeColor2.png
+			}
+		}
+
+	}
+
+}
+
+
+
+material 20-Default
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture StudentColorGreen.png
+			}
+		}
+
+	}
+
+}
+
+
+
+material Human
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture StudentColor.png
+			}
+		}
+
+	}
+
+}
+
+
+
+material 13-Default
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture StuhlColor_map2.png
+			}
+		}
+
+	}
+
+}
+
+
+
+material 08-Default
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture TischColor2.png
+			}
+		}
+
+	}
+
+}
+
+
+
+material 09-Default
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0 0 0 1 1
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture RaumColor_map2.png
+			}
+		}
+
+	}
+
+}
