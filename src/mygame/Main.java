@@ -5,11 +5,13 @@ import com.jme3.light.AmbientLight;
 import com.jme3.material.Material;
 import com.jme3.math.ColorRGBA;
 import com.jme3.math.Vector3f;
+import com.jme3.niftygui.NiftyJmeDisplay;
 import com.jme3.renderer.RenderManager;
 import com.jme3.scene.Geometry;
 import com.jme3.scene.shape.Box;
 import com.jme3.scene.Node;
 import com.jme3.scene.Spatial;
+import de.lessvoid.nifty.Nifty;
 
 /**
  * test
@@ -44,6 +46,19 @@ public class Main extends SimpleApplication {
         AmbientLight ambient = new AmbientLight();
         ambient.setColor(ColorRGBA.White);
         rootNode.addLight(ambient); 
+        
+        NiftyJmeDisplay niftyDisplay = new NiftyJmeDisplay(
+    assetManager, inputManager, audioRenderer, guiViewPort);
+/** Create a new NiftyGUI object */
+Nifty nifty = niftyDisplay.getNifty();
+/** Read your XML and initialize your custom ScreenController */
+nifty.fromXml("gui/gui.xml", "hud");
+// nifty.fromXml("Interface/helloworld.xml", "start", new MySettingsScreen(data));
+// attach the Nifty display to the gui view port as a processor
+guiViewPort.addProcessor(niftyDisplay);
+// disable the fly cam
+flyCam.setDragToRotate(true);
+        
     }
 
     @Override
